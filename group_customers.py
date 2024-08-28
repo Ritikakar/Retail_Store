@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
+# this code will group the customers
 #load the dataset
 data = pd.read_csv("D:\git demo\RtlStore\Mall_Customers.csv")
 
